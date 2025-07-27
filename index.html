@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechVerse 2025 | ABC Engineering College</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+            background-color: #0077b6;
+        }
+
+        .wrapper {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #cea6b5;
+            border: 3px solid #5bd150;
+            padding: 30px;
+        }
+
+        .main-header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #ee47d2;
+        }
+
+        .main-header h1 {
+            font-size: 2.5em;
+            color: #d90429;
+            margin-bottom: 10px;
+        }
+
+        .main-header p {
+            font-size: 1.1em;
+            color: #555;
+        }
+        
+        .intro {
+            text-align: center;
+            font-size: 1.1em;
+            margin-bottom: 30px;
+        }
+
+        .card {
+            padding: 20px;
+            margin-bottom: 25px;
+            border: 1px solid #488fd6;
+            border-radius: 5px;
+        }
+
+        .title {
+            text-align: center;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: #001d3d;
+        }
+        
+        .event-list {
+            list-style-position: inside;
+            padding-left: 10px;
+        }
+
+        .event-list li {
+            margin-bottom: 10px;
+        }
+
+        .schedule {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+        }
+
+        .schedule th, .schedule td {
+            padding: 12px;
+            border: 1px solid #512dd1;
+        }
+
+        .schedule th {
+            background-color: #6da7e2;
+        }
+
+        .form .form-row {
+            margin-bottom: 15px;
+        }
+
+        .form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .form input[type="text"],
+        .form input[type="email"],
+        .form select {
+            width: 100%;
+            padding: 10px;
+            border-radius: 9px;
+            border: 2px solid #317cc7;
+            font-size: 1em;
+        }
+        
+        .checkbox-group {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .button {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            background: #d90429;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+
+        .contact {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .contact p {
+            margin-bottom: 10px;
+        }
+
+        .contact a {
+            color: #0077b6;
+            text-decoration: none;
+        }
+
+        .page-footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 2px solid #ced4da;
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="main-header">
+            <h1>TechVerse 2025</h1>
+            <p>Organized by ABC Engineering College</p>
+            <p><strong>Date:</strong> 25th August 2025 | <strong>Time:</strong> 10:00 AM onwards</p>
+        </header>
+
+        <p class="intro">
+            Welcome to the most anticipated tech festival of the year! Join us for a day packed with exciting events, insightful workshops, and unforgettable memories.
+        </p>
+
+        <section class="card">
+            <h2 class="title">Event Highlights</h2>
+            <ul class="event-list">
+                <li>Inauguration Ceremony & Welcome Note</li>
+                <li>Guest Lecture by Industry Experts on Future Tech</li>
+                <li>Hackathon & Intense Coding Challenges</li>
+                <li>Hands-on Workshops on AI, Web Dev, and IoT</li>
+                <li>Project Expo & Innovation Showcase</li>
+                <li>Vibrant Cultural Night & DJ Party</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2 class="title">Event Schedule</h2>
+            <table class="schedule">
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Activity</th>
+                        <th>Venue</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>10:00 AM - 11:00 AM</td>
+                        <td>Inauguration Ceremony</td>
+                        <td>Main Auditorium</td>
+                    </tr>
+                    <tr>
+                        <td>11:30 AM - 01:00 PM</td>
+                        <td>Guest Lecture</td>
+                        <td>Seminar Hall A</td>
+                    </tr>
+                    <tr>
+                        <td>02:00 PM - 05:00 PM</td>
+                        <td>Hackathon & Workshops</td>
+                        <td>Computer Labs</td>
+                    </tr>
+                    <tr>
+                        <td>06:00 PM Onwards</td>
+                        <td>Cultural Night & DJ</td>
+                        <td>Open Air Theatre</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="card">
+            <h2 class="title">Register Now</h2>
+            <form class="form">
+                <div class="form-row">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" name="fullName" required>
+                </div>
+                <div class="form-row">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-row">
+                    <label for="college">College Name</label>
+                    <input type="text" id="college" name="college" required>
+                </div>
+                <div class="form-row">
+                    <label for="year">Year of Study</label>
+                    <select id="year" name="year">
+                        <option>1st Year</option>
+                        <option>2nd Year</option>
+                        <option>3rd Year</option>
+                        <option>4th Year</option>
+                    </select>
+                </div>
+                <div class="form-row">
+                    <label>Select Event(s):</label>
+                    <label class="checkbox-group">
+                        <input type="checkbox" name="events" value="lecture"> Guest Lecture
+                    </label>
+                    <label class="checkbox-group">
+                        <input type="checkbox" name="events" value="hackathon"> Hackathon
+                    </label>
+                    <label class="checkbox-group">
+                        <input type="checkbox" name="events" value="workshop"> Workshop
+                    </label>
+                </div>
+                <button type="submit" class="button">Submit Registration</button>
+            </form>
+        </section>
+
+        <section class="contact">
+             <h2 class="title">Contact Us</h2>
+             <p>For any queries, feel free to reach out!</p>
+             <p><strong>Email:</strong> <a href="mailto:event@abccollege.edu">event@abccollege.edu</a></p>
+             <p><strong>Phone:</strong> <a href="tel:+919876543210">+91-9876543210</a></p>
+        </section>
+
+        <footer class="page-footer">
+            <p>© 2025 ABC Engineering College. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
